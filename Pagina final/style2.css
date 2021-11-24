@@ -1,0 +1,312 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Montserrat", sans-serif;
+}
+
+.wrapper{
+	width: 100vw;
+	height: 100vh;
+	background: #191c32;
+	color: white;
+
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	padding: 2em;
+}
+
+.brand span{
+	color: aqua;
+
+}
+
+.brand{
+	margin-top: -7px;
+}
+
+.menu{
+	display: flex;
+	width: 50%;
+	justify-content: space-around;
+}
+
+.menu li{
+	list-style: none;
+}
+
+.menu a {
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+.menu .activa {
+	color: aqua;
+}
+
+.menu a:hover {
+	background-color: aqua;
+	color: #191c32;
+	transition: ease-in .4s;
+}
+
+
+.main {
+	margin: 0 auto;
+	width: 80vw;
+	height: 80vh;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	align-items: center;
+	padding: 2em;
+}
+h1{
+	font-size: 3em;
+}
+span{
+	color: aqua;
+}
+.descargarCV{
+	padding: 10px 20px;
+	background: aqua;
+	border: none;
+	border-radius: 20px;
+	margin-top: 10px;
+	cursor: pointer;
+	box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .69);
+}
+.descargarCV:hover{
+	background-color: white;
+	box-shadow: none;
+}
+
+.me{
+	width: 450px;
+	border: 7px solid aqua;
+	height: 520px;
+}
+
+.sobre {
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	width: 100vw;
+	align-items: center;
+
+}
+
+.me2{
+	width: 500px;
+	grid-column: 1/5;
+
+}
+
+.sobre-info{
+	grid-column: 5/10;
+	padding: 2em;
+}
+
+.sobre-info h2 {
+	font-size: 2em;
+	color: #191c32;
+
+}
+
+.dividir{
+	height: 4px;
+	width: 60px;
+	background: aqua;
+	margin-top: 5px;
+	margin-bottom: 2em;
+}
+
+.sobre p{
+	margin-bottom: 1em;
+}
+
+.Portafolio{
+	width: 100vw;
+	background: #191c32;
+}
+.portafolio-cabeza{
+	width: 100%;
+	padding: 5em;
+}
+
+.portafolio-cabeza h2{
+	font-size: 2.5em;
+	color: white;
+}
+
+.Portafolio .container{
+	width: 80vw;
+	height: 80vh;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+.card {
+	width: 300px;
+	height: 440px;
+	color: white;
+	background-color: #2F4F80;
+	margin: 1em;
+
+}
+
+.card-img{
+	width: 100%;
+	height: 150px;
+	background-image: url(neon.png);
+	background-size: cover;
+}
+
+.card-titulo{
+	padding: 20px;
+	text-align: center;
+}
+.card-titulo h2 {
+	margin-bottom: 1em;
+}
+
+.proyecto-links{
+	display: flex;
+	justify-content: space-evenly;
+
+}
+
+.proyecto-links a {
+	color: white;
+	text-decoration: none;
+}
+
+.proyecto-links i {
+	font-size: 1.5em;
+}
+
+.detalles{
+	margin: 0 auto;
+	margin: 1em;
+	width: 70%;
+
+}
+
+.detalles a {
+	text-decoration: none;
+	color:  #191c32;
+	text-transform: uppercase;
+}
+.contenidodetalles{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin-top: 1em;
+}
+.contacto{
+	width: 100vw;
+	background: #191c32;
+}
+.contacto-cabeza h2{
+	color: white;
+	font-size: 3em;
+	margin-left: 50px;
+}
+
+.dividir2{
+	height: 4px;
+	width: 60px;
+	background: aqua;
+	margin-top: 5px;
+	margin-bottom: 2em;
+	margin-left: 50px;
+}
+
+.contacto2{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	width: 100vw;
+	align-items: center;
+}
+
+.img3{
+	width: 500px;
+	bottom: 0;
+	opacity: 80%;
+	margin-left: 20px;
+	margin-bottom: 2em;
+}
+
+.form {
+	display: grid;
+	flex-direction: column;
+	width: 30vw;
+	margin-top: 2em;
+}
+.form h4{
+	grid-column: 5/10;
+	margin-bottom: 2em;
+	color: white;
+	text-align: center;
+}
+
+.form input{
+	grid-column: 5/10;
+	padding: 10px 20px;
+	margin-bottom: 1em;
+	background: none;
+	border: none;
+	border-bottom: 1px solid white;
+	color: white;
+}
+
+.form textarea{
+	grid-column: 5/10;
+	height: 150px;
+	background: none;
+	color: white;
+	padding: 1.5em;
+	border: 1px solid white;
+}
+
+.btn-submit{
+	grid-column: 5/10;
+	padding: 10px 20px;
+	margin: 1em;
+	border: none;
+	text-transform: uppercase;
+	background-color: aqua;
+	border-radius: 20px;
+
+}
+
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vh;
+	height: 200px;
+	background: aqua;
+}
+
+.footer-contenido h2{
+	font-size: 3em;
+
+}
+
+.footer-contenido h5, .social i {
+	font-size: 1.5em;
+	
+}
+.social{
+	display: flex;
+	justify-content: space-evenly;
+	width: 300px;
+	margin-top: 1em;
+}
+
